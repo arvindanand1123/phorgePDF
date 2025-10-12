@@ -1,0 +1,39 @@
+
+# === Rust build ===
+/src-tauri/target
+/target
+
+# === Frontend build ===
+/node_modules
+/dist
+/build
+
+# === Environment & config ===
+.env
+.env.*
+!.env.example
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+*.log
+.vscode
+.idea
+
+# === Tauri packaging outputs ===
+/src-tauri/icons
+/src-tauri/target/
+*.app
+*.dmg
+*.exe
+*.AppImage
+*.msi
+*.deb
+*.rpm
+*.zip
+*.tar.gz
+
+# === Misc ===
+/coverage
+/out
+/tmp
