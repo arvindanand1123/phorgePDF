@@ -1,39 +1,26 @@
 
-# === Rust build ===
-/src-tauri/target
-/target
-
-# === Frontend build ===
-/node_modules
-/dist
-/build
-
-# === Environment & config ===
-.env
-.env.*
-!.env.example
-
-# === OS / editor ===
-.DS_Store
-Thumbs.db
+# Logs
+logs
 *.log
-.vscode
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
 .idea
-
-# === Tauri packaging outputs ===
-/src-tauri/icons
-/src-tauri/target/
-*.app
-*.dmg
-*.exe
-*.AppImage
-*.msi
-*.deb
-*.rpm
-*.zip
-*.tar.gz
-
-# === Misc ===
-/coverage
-/out
-/tmp
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+tmp
