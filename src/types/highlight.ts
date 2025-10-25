@@ -6,9 +6,3 @@ export interface Highlight {
   color: string;
 }
 
-export interface HighlightPosition {
-  pageNumber: number;
-  startOffset: number;
-  endOffset: number;
-  text: string;
-}
